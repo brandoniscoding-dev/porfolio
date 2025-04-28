@@ -61,9 +61,9 @@ const Navbar = () => {
         <div className="flex items-center gap-4 text-2xl">
           {[
             { Icon: FaLinkedin, link: "https://www.linkedin.com/in/brandon-duclerc-tamwa-kamga/" },
-            { Icon: FaSquareGithub, link: "https://github.com/ton-profil-github" },
-            { Icon: FaSquareXTwitter, link: "https://twitter.com/ton-profil-twitter" },
-            { Icon: FaMedium, link: "https://medium.com/@ton-profil-medium" }
+            { Icon: FaSquareGithub, link: "https://github.com/brandoniscoding-dev" },
+            { Icon: FaSquareXTwitter, link: "https://x.com/Brandoniscoding" },
+            { Icon: FaMedium, link: "https://medium.com/@brandoniscoding" }
           ].map(({ Icon, link }, index) => (
             <motion.a 
               key={index} 
