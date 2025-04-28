@@ -1,6 +1,6 @@
 export const CONTACT = {
     address: "Yaounde, Emana",
-    phoneNo: "+237 62 01 05 64",
+    phoneNo: "+237 620 510 564",
     email: "brandoniscoding4@gmail.com",
   };
   
