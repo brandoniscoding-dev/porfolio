@@ -20,7 +20,7 @@ const Navbar = () => {
             to="hero"
             smooth={true}
             duration={500}
-            className="cursor-pointer text-xl sm:text-2xl md:text-3xl font-extrabold text-stone-300 hover:text-blue-400 transition-all"
+            className="cursor-pointer text-lg sm:text-2xl md:text-3xl font-extrabold text-stone-300 hover:text-blue-400 transition-all"
           >
             brandoniscoding
             <span className="text-2xl sm:text-3xl md:text-4xl text-blue-400 animate-pulse ml-1">.</span>
