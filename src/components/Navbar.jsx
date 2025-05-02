@@ -14,7 +14,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-6 sm:px-12">
         
-        {/* Logo animé */}
+        {/* Logo */}
         <motion.div whileHover={{ scale: 1.1 }} className="flex items-center">
           <Link 
             to="hero" 
@@ -32,7 +32,7 @@ const Navbar = () => {
           {[
             { label: "Home", to: "hero" },
             { label: "Technologies", to: "technologies" },
-            { label: "Projects", to: "project" },
+            { label: "Projects", to: "projects" },
             { label: "Experiences", to: "experiences" },
             { label: "Contact", to: "contact" }
           ].map((item) => (

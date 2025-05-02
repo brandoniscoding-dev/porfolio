@@ -51,7 +51,7 @@ const Contact = () => {
 
       {/* Bouton WhatsApp uniquement */}
       <motion.a
-        href="https://wa.me/23720510564" // <-- Remplace ton lien WhatsApp ici
+        href="https://wa.me/237620510564" // <-- Remplace ton lien WhatsApp ici
         target="_blank"
         rel="noopener noreferrer"
         initial={{ opacity: 0, y: 30 }}

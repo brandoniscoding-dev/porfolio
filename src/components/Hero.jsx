@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
-    <div className="min-h-screen flex flex-wrap items-center justify-center pt-32">
+    <div id="hero" className=" min-h-screen flex flex-wrap items-center justify-center pt-32">
       
       {/* Image de profil avec anneau animé */}
       <motion.div 
