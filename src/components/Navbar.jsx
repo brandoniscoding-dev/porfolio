@@ -6,25 +6,26 @@ import { motion } from 'framer-motion';
 
 const Navbar = () => {
   return (
-    <motion.nav 
+    <motion.nav
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.7 }}
       className="fixed right-0 top-0 z-50 w-full backdrop-blur-lg bg-black/20"
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-6 sm:px-12">
-        
+
         {/* Logo */}
         <motion.div whileHover={{ scale: 1.1 }} className="flex items-center">
-          <Link 
-            to="hero" 
-            smooth={true} 
-            duration={500} 
-            className="cursor-pointer text-2xl sm:text-3xl font-extrabold text-stone-300 hover:text-blue-400 transition-all"
+          <Link
+            to="hero"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer text-xl sm:text-2xl md:text-3xl font-extrabold text-stone-300 hover:text-blue-400 transition-all"
           >
             brandoniscoding
-            <span className="text-4xl text-blue-400 animate-pulse ml-1">.</span>
+            <span className="text-2xl sm:text-3xl md:text-4xl text-blue-400 animate-pulse ml-1">.</span>
           </Link>
+
         </motion.div>
 
         {/* Menu navigation */}
@@ -36,7 +37,7 @@ const Navbar = () => {
             { label: "Experiences", to: "experiences" },
             { label: "Contact", to: "contact" }
           ].map((item) => (
-            <Link 
+            <Link
               key={item.to}
               to={item.to}
               smooth={true}
@@ -65,10 +66,10 @@ const Navbar = () => {
             { Icon: FaSquareXTwitter, link: "https://x.com/Brandoniscoding" },
             { Icon: FaMedium, link: "https://medium.com/@brandoniscoding" }
           ].map(({ Icon, link }, index) => (
-            <motion.a 
-              key={index} 
-              href={link} 
-              target="_blank" 
+            <motion.a
+              key={index}
+              href={link}
+              target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.95 }}
