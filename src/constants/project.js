@@ -7,8 +7,8 @@ export const PROJECTS = [
     title: "Snake Game",
     description: "A fast-paced and addictive browser game where players control a growing snake, demonstrating real-time interactions and dynamic user experience.",
     image: "",
-    githubLink: "https://github.com/brandoniscoding/snake-game",
-    liveLink: "",
+    githubLink: "https://github.com/brandoniscoding-dev/SRG",
+    liveLink: "https://brandoniscoding-dev.github.io/SRG/",
     technologiesIcons: [
       { Icon: RiReactjsLine, color: "#61DBFB" },
       { Icon: SiTailwindcss, color: "#38BDF8" },
