@@ -23,7 +23,8 @@ jobs:
 
       # 3. Installer les dépendances
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
+
 
       # 5. Builder le projet si tests OK
       - name: Build project
