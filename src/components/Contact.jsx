@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="border-t border-stone-900 py-16 px-6 max-w-3xl mx-auto text-center"
+      className="border-t text-blue-400 py-16 px-6 max-w-3xl mx-auto text-center"
     >
       {/* Titre principal */}
       <motion.h2

@@ -20,7 +20,7 @@ export const PROJECTS = [
     title: "Task Manager",
     description: "A task management platform designed to streamline teamwork and boost productivity.",
     image: "",
-    githubLink: "https://github.com/brandoniscoding/task-manager",
+    githubLink: "",
     liveLink: "",
     technologiesIcons: [
       { Icon: FaNodeJs, color: "#68A063" },
@@ -34,7 +34,7 @@ export const PROJECTS = [
     title: "WA AI-REPLY",
     description: "A smart browser extension that assists users in writing and replying to WhatsApp messages more efficiently, powered by artificial intelligence for enhanced speed and quality.",
     image: "",
-    githubLink: "https://github.com/brandoniscoding/wa-reply-extension",
+    githubLink: "",
     liveLink: "",
     technologiesIcons: [
       { Icon: FaHtml5, color: "#e34c26" },
@@ -51,7 +51,7 @@ export const PROJECTS = [
     title: "MailOps",
     description: "An intelligent Gmail assistant browser extension that helps users draft and respond to emails faster and smarter, powered by artificial intelligence for optimized email productivity.",
     image: "",
-    githubLink: "https://github.com/brandoniscoding/mailops",
+    githubLink: "",
     liveLink: "",
     technologiesIcons: [
       { Icon: SiSpringboot, color: "#6DB33F" },
